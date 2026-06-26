@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnetic Window Screen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+
+<h2>FreshAir Screen</h2>
+
+
+<div>
+
+<a href="#buy">Buy Now</a>
+
+<span class="cart">
+🛒 Cart (<span id="cart-count">0</span>)
+</span>
+
+</div>
+
+
+</nav>
+
+
+<!-- HERO -->
+<header class="hero">
+
+    <div class="hero-content">
+        <h1>Keep Bugs Out. Let Fresh Air In.</h1>
+
+        <p>
+        Enjoy fresh air without mosquitoes and insects entering your home.
+        Installs in minutes with no tools required.
+        </p>
+
+        <a href="#buy" class="btn">Shop Now</a>
+    </div>
+
+
+    <div class="hero-image">
+
+    <img id="main-image" src="images/product.png" alt="Magnetic Window Screen">
+    <div class="product-badges">
+
+    <p>✅ Easy Installation</p>
+    <p>🚚 Free Shipping</p>
+    <p>🔒 Secure Payment</p>
+
+</div>
+
+    <div class="thumbnail">
+        <img src="images/product.png" onclick="changeImage(this.src)">
+        <img src="images/product2.png" onclick="changeImage(this.src)">
+        <img src="images/product3.png" onclick="changeImage(this.src)">
+    </div>
+
+</div>
+
+</header>
+
+
+
+<!-- BENEFITS -->
+<section class="benefits">
+
+<h2>Why You'll Love It</h2>
+
+<div class="benefit-grid">
+
+
+<div class="card">
+<h3>🦟 Keeps Bugs Out</h3>
+<p>Helps block mosquitoes and insects while keeping your window open.</p>
+</div>
+
+
+<div class="card">
+<h3>⚡ Easy Installation</h3>
+<p>Install quickly without drilling or complicated tools.</p>
+</div>
+
+
+<div class="card">
+<h3>💨 Fresh Air</h3>
+<p>Enjoy better airflow and a comfortable home environment.</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+<!-- HOW IT WORKS -->
+
+<section class="how">
+
+<h2>How It Works</h2>
+
+
+<div class="steps">
+
+<div class="step">
+<h3>1. Measure</h3>
+<p>Choose the correct size for your window.</p>
+</div>
+
+
+<div class="step">
+<h3>2. Attach</h3>
+<p>Stick the magnetic frame around your window.</p>
+</div>
+
+
+<div class="step">
+<h3>3. Enjoy</h3>
+<p>Open your window and enjoy fresh air.</p>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- REVIEWS -->
+
+<section class="reviews">
+
+<h2>Customer Reviews</h2>
+
+
+<div class="review-box">
+
+<div>
+⭐⭐⭐⭐⭐
+<p>"Works perfectly. No more mosquitoes coming inside."</p>
+<b>- Sarah</b>
+</div>
+
+
+<div>
+⭐⭐⭐⭐⭐
+<p>"Easy to install and great quality."</p>
+<b>- Mike</b>
+</div>
+
+
+<div>
+⭐⭐⭐⭐⭐
+<p>"Perfect for summer. I love keeping my window open."</p>
+<b>- Emma</b>
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- GUARANTEE -->
+
+<section class="guarantee">
+
+<h2>30-Day Money Back Guarantee</h2>
+
+<p>
+Try our Magnetic Window Screen risk-free.
+If you don't love it, get your money back.
+</p>
+
+</section>
+
+
+
+
+
+<!-- PRODUCT BUY SECTION -->
+
+<section id="buy" class="product-section">
+
+    <div class="product-info">
+
+        <h2>Magnetic Window Screen</h2>
+
+        <div class="stars">
+            ⭐⭐⭐⭐⭐ (500+ Reviews)
+        </div>
+
+
+        <div class="price">
+
+            <span class="old-price">$39.99</span>
+
+            <span class="new-price">$29.99</span>
+
+        </div>
+
+
+        <p>
+        Keep insects outside while enjoying fresh air.
+        Easy installation and perfect for summer.
+        </p>
+
+
+        <div class="stock">
+            🔥 Only 12 left in stock!
+        </div>
+
+
+        <label>Quantity:</label>
+
+        <select id="quantity">
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+
+        </select>
+
+
+        <a class="cart-btn" href="https://buy.stripe.com/test_28EbJ36GmfGZ2kE6yRcEw00">
+        Buy Now
+        </a>
+
+        <button class="checkout-btn" onclick="checkout()">
+                 Checkout
+        </button>
+
+
+        <div class="checkout">
+
+            🔒 Secure Checkout<br>
+            🚚 Free Shipping<br>
+            ↩️ 30-Day Money Back Guarantee
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+<!-- FAQ -->
+
+<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+
+<h3>How long does installation take?</h3>
+<p>Usually less than 5 minutes.</p>
+
+
+<h3>Do I need tools?</h3>
+<p>No. It installs with simple adhesive strips.</p>
+
+
+<h3>Can I open and close my window normally?</h3>
+<p>Yes, the magnetic opening allows easy access.</p>
+
+
+</section>
+
+
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<h2>FreshAir Screen</h2>
+
+<p>Fresh air. Fewer bugs.</p>
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
